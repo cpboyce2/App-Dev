@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>580276822635-pe5pboj3g5g4n0jav3iknka9kcril158.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.580276822635-pe5pboj3g5g4n0jav3iknka9kcril158</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBCb0SkboP8XBnvdJlIZuOIiJ8zFA3tTzg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>580276822635</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.connorboyce.DrinkTrain</string>
+	<key>PROJECT_ID</key>
+	<string>drinktrain</string>
+	<key>STORAGE_BUCKET</key>
+	<string>drinktrain.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:580276822635:ios:98a41e578afc4fcc47472e</string>
+	<key>DATABASE_URL</key>
+	<string>https://drinktrain.firebaseio.com</string>
+</dict>
+</plist>

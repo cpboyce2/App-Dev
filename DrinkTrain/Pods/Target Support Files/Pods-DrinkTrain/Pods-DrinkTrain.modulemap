@@ -1,0 +1,6 @@
+framework module Pods_DrinkTrain {
+  umbrella header "Pods-DrinkTrain-umbrella.h"
+
+  export *
+  module * { export * }
+}

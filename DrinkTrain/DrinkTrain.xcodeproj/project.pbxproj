@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FA82FC164EB3C5E6D3418DE /* Pods_DrinkTrain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC90CD1A975582FAC15E7468 /* Pods_DrinkTrain.framework */; };
+		CBBD4A5F2329ED1900456661 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBD4A5E2329ED1900456661 /* LoginViewController.swift */; };
+		CBEB30DC23282CFE002605AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEB30DB23282CFE002605AE /* AppDelegate.swift */; };
+		CBEB30DE23282CFE002605AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEB30DD23282CFE002605AE /* ViewController.swift */; };
+		CBEB30E123282CFE002605AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBEB30DF23282CFE002605AE /* Main.storyboard */; };
+		CBEB30E623282D00002605AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBEB30E523282D00002605AE /* Assets.xcassets */; };
+		CBEB30E923282D00002605AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBEB30E723282D00002605AE /* LaunchScreen.storyboard */; };
+		CBEB30F123282F51002605AE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBEB30F023282F51002605AE /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7C1BC3C88049EF89F513AE56 /* Pods-DrinkTrain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrinkTrain.debug.xcconfig"; path = "Target Support Files/Pods-DrinkTrain/Pods-DrinkTrain.debug.xcconfig"; sourceTree = "<group>"; };
+		CBBD4A5E2329ED1900456661 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CBEB30D823282CFE002605AE /* DrinkTrain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkTrain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBEB30DB23282CFE002605AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBEB30DD23282CFE002605AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CBEB30E023282CFE002605AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBEB30E523282D00002605AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBEB30E823282D00002605AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBEB30EA23282D00002605AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBEB30F023282F51002605AE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CC90CD1A975582FAC15E7468 /* Pods_DrinkTrain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DrinkTrain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6E941C60FBF4F396C2F90BF /* Pods-DrinkTrain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrinkTrain.release.xcconfig"; path = "Target Support Files/Pods-DrinkTrain/Pods-DrinkTrain.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBEB30D523282CFE002605AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA82FC164EB3C5E6D3418DE /* Pods_DrinkTrain.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12BC6F58301DDF55079EAFE5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C1BC3C88049EF89F513AE56 /* Pods-DrinkTrain.debug.xcconfig */,
+				F6E941C60FBF4F396C2F90BF /* Pods-DrinkTrain.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		804CB56E6478E8A58751F13E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC90CD1A975582FAC15E7468 /* Pods_DrinkTrain.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBEB30CF23282CFE002605AE = {
+			isa = PBXGroup;
+			children = (
+				CBEB30DA23282CFE002605AE /* DrinkTrain */,
+				CBEB30D923282CFE002605AE /* Products */,
+				12BC6F58301DDF55079EAFE5 /* Pods */,
+				804CB56E6478E8A58751F13E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CBEB30D923282CFE002605AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBEB30D823282CFE002605AE /* DrinkTrain.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBEB30DA23282CFE002605AE /* DrinkTrain */ = {
+			isa = PBXGroup;
+			children = (
+				CBEB30DB23282CFE002605AE /* AppDelegate.swift */,
+				CBEB30DD23282CFE002605AE /* ViewController.swift */,
+				CBBD4A5E2329ED1900456661 /* LoginViewController.swift */,
+				CBEB30DF23282CFE002605AE /* Main.storyboard */,
+				CBEB30E523282D00002605AE /* Assets.xcassets */,
+				CBEB30E723282D00002605AE /* LaunchScreen.storyboard */,
+				CBEB30F023282F51002605AE /* GoogleService-Info.plist */,
+				CBEB30EA23282D00002605AE /* Info.plist */,
+			);
+			path = DrinkTrain;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBEB30D723282CFE002605AE /* DrinkTrain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBEB30ED23282D00002605AE /* Build configuration list for PBXNativeTarget "DrinkTrain" */;
+			buildPhases = (
+				5ACC849A3993881592E195F8 /* [CP] Check Pods Manifest.lock */,
+				CBEB30D423282CFE002605AE /* Sources */,
+				CBEB30D523282CFE002605AE /* Frameworks */,
+				CBEB30D623282CFE002605AE /* Resources */,
+				B3767CC17E6CC477E0456175 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrinkTrain;
+			productName = DrinkTrain;
+			productReference = CBEB30D823282CFE002605AE /* DrinkTrain.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBEB30D023282CFE002605AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Connor Boyce";
+				TargetAttributes = {
+					CBEB30D723282CFE002605AE = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = CBEB30D323282CFE002605AE /* Build configuration list for PBXProject "DrinkTrain" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBEB30CF23282CFE002605AE;
+			productRefGroup = CBEB30D923282CFE002605AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBEB30D723282CFE002605AE /* DrinkTrain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBEB30D623282CFE002605AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBEB30E923282D00002605AE /* LaunchScreen.storyboard in Resources */,
+				CBEB30F123282F51002605AE /* GoogleService-Info.plist in Resources */,
+				CBEB30E623282D00002605AE /* Assets.xcassets in Resources */,
+				CBEB30E123282CFE002605AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5ACC849A3993881592E195F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DrinkTrain-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3767CC17E6CC477E0456175 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DrinkTrain/Pods-DrinkTrain-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DrinkTrain/Pods-DrinkTrain-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DrinkTrain/Pods-DrinkTrain-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBEB30D423282CFE002605AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBBD4A5F2329ED1900456661 /* LoginViewController.swift in Sources */,
+				CBEB30DE23282CFE002605AE /* ViewController.swift in Sources */,
+				CBEB30DC23282CFE002605AE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CBEB30DF23282CFE002605AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBEB30E023282CFE002605AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBEB30E723282D00002605AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBEB30E823282D00002605AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBEB30EB23282D00002605AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBEB30EC23282D00002605AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBEB30EE23282D00002605AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C1BC3C88049EF89F513AE56 /* Pods-DrinkTrain.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8W8C8GPY3U;
+				INFOPLIST_FILE = DrinkTrain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.connorboyce.DrinkTrain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBEB30EF23282D00002605AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6E941C60FBF4F396C2F90BF /* Pods-DrinkTrain.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8W8C8GPY3U;
+				INFOPLIST_FILE = DrinkTrain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.connorboyce.DrinkTrain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBEB30D323282CFE002605AE /* Build configuration list for PBXProject "DrinkTrain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBEB30EB23282D00002605AE /* Debug */,
+				CBEB30EC23282D00002605AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBEB30ED23282D00002605AE /* Build configuration list for PBXNativeTarget "DrinkTrain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBEB30EE23282D00002605AE /* Debug */,
+				CBEB30EF23282D00002605AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBEB30D023282CFE002605AE /* Project object */;
+}
